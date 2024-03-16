@@ -1,0 +1,8 @@
+version: '3'
+
+tasks:
+  jekyll-exec:
+    alias: exec
+    cmds:
+      - bundle exec jekyll serve
+    silent: true
