@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Medevtations on Integration Testing"
-date:   2024-03-14
+date:   2024-03-17
 categories: integration testing
 ---
 
