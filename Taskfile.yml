@@ -1,8 +1,9 @@
 version: '3'
 
 tasks:
+  bundle-install:
+    cmds:
+      - bundle install
   jekyll-exec:
-    alias: exec
     cmds:
       - bundle exec jekyll serve
-    silent: true
