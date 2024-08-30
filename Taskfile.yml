@@ -4,6 +4,8 @@ tasks:
   bundle-install:
     cmds:
       - bundle install
-  jekyll-exec:
+  exec:
+    alias: 
+      - jekyll-exec
     cmds:
       - bundle exec jekyll serve
